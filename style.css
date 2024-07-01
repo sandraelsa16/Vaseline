@@ -58,6 +58,15 @@
     color:  rgb(2,0,36);
     font-size: 20px;
 }
+
+.about button:hover {
+     border-bottom: 5px solid rgb(2,0,36);
+     padding-bottom: 20px;
+}
+.about a:hover {
+     border-bottom: 5px solid rgb(2,0,36);
+     padding-bottom: 20px;
+}
 .search-area{
    margin-left:250px ;
    width: 300px;
@@ -74,7 +83,7 @@
 .search-area button {
     position: absolute;
     /* padding: 10px; */
-    right: 16%;
+    right: 15%;
     border: none;
     background-color: transparent;
 }
@@ -326,4 +335,50 @@ padding: 30px;
 
 .faqs a:hover{
     text-decoration: underline;
+}
+
+.link {
+    text-decoration: none;
+    color: grey;
+}
+
+.link:hover{
+    text-decoration: underline;
+}
+
+.email input {
+    width: 270px;
+    height: 40px;
+}
+
+.email button{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    border: none;
+   background-color: rgb(26, 26, 135) ;
+}
+
+
+.socialmedia button {
+    color: rgb(26, 26, 135) ;
+    padding: 10px 15px;
+    border: 1px solid rgb(26, 26, 135);
+    background-color: transparent;
+    border-radius: 50px;
+}
+
+.copyright{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 100%, rgba(0,212,255,1) 100%);
+     margin-top: 10px;
+     margin-bottom: 0px;
+     height: 100px;
+}
+
+.copyright button {
+    width: 350px;
+    height: 50px;
+    border: none;
+    text-align: start;
+    padding-left: 50px;
 }
